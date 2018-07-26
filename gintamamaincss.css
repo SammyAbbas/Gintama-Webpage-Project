@@ -1,0 +1,206 @@
+<!DOCTYPE>
+<head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html {
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		body {
+			margin-right: 16%;
+			margin-left: 16%;
+			background-repeat: no-repeat;
+			background-image: url("images/grey.jpg");
+			background-size: cover;
+		}
+		li {
+			color: white;
+		}
+		.maintitle {
+			font-size: 4em;
+			text-align: center;
+			color: lightblue;
+		}
+		p {
+			font-size: 1.2em;
+			text-indent: 2em;
+			color: white;
+			
+			margin-bottom: 0.4em;
+			line-height: 1.6;
+		}
+		li {
+			font-size: 1.1em;
+		}
+		.creator {
+			font-size: 1.9em;
+			text-decoration: underline;
+			color: white;
+		}
+		.creatorname {
+			color: white;
+		}
+		.genre {
+			font-size: 1.9em;
+			text-decoration: underline;
+			color: white;
+		}
+		.characters {
+			font-size: 1.9em;
+			text-decoration: underline;
+			color: white;
+		}
+		.nav {
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
+		nav img {
+			width: 19em;
+			height: 12em;
+			display: inline-block;
+		}
+		nav a {
+			color: white;
+		}
+		nav a:hover {
+			color: red;
+		}
+		h1 {
+			font-size: 3.5em;
+			text-align: center;
+		}
+		aside {
+			float: right;
+			border-collapse: collapse;
+			border: 1.5px solid black;
+			height: 119em;
+			width: 20.5em;
+		}
+		.asidepic {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			height: 19em;
+			width: 19em;
+		}
+		.nameas {
+			text-align: center;
+		}
+		aside h2 {
+			text-align: center;
+			background-color: lightblue;
+			height: 1.7em;
+			font-size: 1.8em;
+		}
+		aside h3 {
+			font-size: 1.7em;
+			text-align: center;
+			background-color: lightblue;
+		}
+		aside p {
+			font-size: 1.1em;
+		}
+		.gintokititle {
+			color: lightblue;
+		}
+		.kaguratitle {
+			color: orange;
+		}
+		.shinpachititle {
+			color: darkblue;
+		}
+		.relationshipimage {
+			float: right;
+			width: 10em;
+			height: 10em;	
+			margin-right: 2em;
+		}
+		.titleimg {
+			display: block;
+			margin: 0 auto;
+			width: 26em;
+			height: 20em;
+		}
+		.subtitle {
+			color: yellow;
+			font-size: 2em;
+		}
+		nav {
+			margin-top: 15px;
+		}
+		nav a {
+			color: white;
+			background-color: grey;
+			border: 1px solid black; 
+			padding: 10px;
+			font-size: 1.1em;
+			text-decoration: none;
+		}
+		.youngkagura {
+			float: right;
+			width: 13em;
+			height: 9em;
+		}
+		.gallerypic {
+			margin-right: 11em;
+			margin-bottom: 5em;
+			border: 1px solid blue;
+			justify-content: center; 
+		}
+		.gintamacharacters {
+			margin-bottom: 3em;
+		}
+		.family {
+			color: yellow;
+		}
+		.relation {
+			font-size: 1.2em;
+			margin-bottom: 2em;
+		}
+		.friends {
+			color: yellow;
+		}
+		.relationshipkagura {
+			float: right;
+		}
+		.enemies {
+			color: yellow;
+		}
+		.shinpachigallery {
+			text-align: center;
+			color: yellow;
+		}
+		.katsuratitle {
+			text-align: center;
+			color: cyan;
+		}
+		.katsuragrave {
+			display: inline-block;
+			float: left;
+			margin: 30px;
+		}
+		.katsuragallery {
+			text-align: center;
+			color: yellow;
+		}
+		.kondoutitle {
+			color: brown;
+			text-align: center; 
+		}
+		.hijikatatitle {
+			color: black;
+			text-align: center;
+		}
+		.hijikatagallery {
+			text-align: center;
+		}
+		.pics {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	</style>
+</head>
